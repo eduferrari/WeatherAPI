@@ -2,10 +2,10 @@
 # Perguntas Técnicas
 
 ## 1. Quanto tempo você usou para completar a solução apresentada? O que você faria se tivesse mais tempo?
-A solução apresentada foi desenvolvida em aproximadamente 8 horas. Se tivesse mais tempo eu melhoraria a interface de usuário final onde é consultado as informações de temperatura das cidades propostas.
+A solução apresentada foi desenvolvida em aproximadamente 8 horas. Se tivesse mais tempo, eu melhoraria a interface de usuário final, onde são consultadas as informações de temperatura das cidades propostas..
 
 ## 2. Se usou algum framework, qual foi o motivo de ter usado este? Caso contrário, por que não utilizou nenhum?
-Utilizei o ASP.NET Core como framework principal para o desenvolvimento da API e xUniti, Moq e FluentAssertions. O motivo para essa escolha é que o ASP.NET Core é um dos requisitos para a vaga. Com relação aos outros frameworks (xUniti Moq e FluentAssertions) que utilizei foram para testes e que tenho mais conhecimento garantindo uma ótima cobertura de testes.
+Utilizei o ASP.NET Core como framework principal para o desenvolvimento da API e, xUnit, Moq e FluentAssertions para testes. O motivo para essa escolha é que o ASP.NET Core é um dos requisitos para a vaga. Com relação aos outros frameworks (xUnit, Moq e FluentAssertions) que utilizei, foram para testes, nos quais tenho mais conhecimento, garantindo uma ótima cobertura de testes.
 
 ## 3. Descreva você mesmo utilizando json.
 ```json
