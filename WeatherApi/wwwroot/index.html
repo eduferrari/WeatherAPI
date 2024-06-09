@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Temperatura</h1>
+        <form id="weatherForm">
+            <label for="cities">Cidades (separadas por vírgula):</label>
+            <input type="text" id="cities" name="cities" required>
+
+            <label for="startDate">Data de Início:</label>
+            <input type="datetime-local" id="startDate" name="startDate" required>
+
+            <label for="endDate">Data de Fim:</label>
+            <input type="datetime-local" id="endDate" name="endDate" required>
+
+            <button type="submit">Consultar</button>
+        </form>
+
+        <div id="results">
+            <h2>Resultados</h2>
+            <pre id="resultContent"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
